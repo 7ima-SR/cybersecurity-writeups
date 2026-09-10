@@ -1,77 +1,203 @@
 # 🔐 Cybersecurity Writeups
 
-Welcome to my cybersecurity writeups repository.
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Web%20Security-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Field-Cybersecurity-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Bug%20Bounty-Learning-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Writeups-In%20Progress-yellow?style=for-the-badge">
+</p>
 
-This repository contains my notes, methodology, vulnerability analysis, and practical writeups from authorized cybersecurity labs and training platforms.
+<p align="center">
+  A practical collection of cybersecurity lab writeups, vulnerability analysis,
+  exploitation techniques, and security research.
+</p>
 
-The main goal is to document my learning journey, improve my methodology, and build a practical cybersecurity knowledge base.
+---
+
+## 📖 About This Repository
+
+This repository documents my practical cybersecurity learning journey through authorized labs, training platforms, and security research.
+
+Each writeup focuses on understanding:
+
+* 🔎 How vulnerabilities are discovered
+* 🧠 Why vulnerabilities exist
+* 💥 How they can be exploited
+* 🛡️ How they can be prevented
+* 📚 What I learned from each lab
+
+The goal is not only to solve labs, but to understand the underlying security concepts and develop a repeatable methodology.
+
+---
+
+## 📑 Table of Contents
+
+* [🎯 Objectives](#-objectives)
+* [🧪 Platforms](#-platforms)
+* [🧩 Vulnerability Categories](#-vulnerability-categories)
+* [📊 Progress Tracker](#-progress-tracker)
+* [🛠️ Tools](#️-tools)
+* [📂 Repository Structure](#-repository-structure)
+* [📝 Writeup Methodology](#-writeup-methodology)
+* [📚 Resources](#-resources)
+* [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
 ## 🎯 Objectives
 
-* Practice identifying and exploiting web vulnerabilities.
-* Understand vulnerabilities from both offensive and defensive perspectives.
-* Document practical attack methodologies.
-* Improve penetration testing and bug bounty skills.
-* Build a structured cybersecurity knowledge base.
-* Track my progress across different labs and platforms.
+* Build strong practical web security skills.
+* Improve vulnerability discovery and exploitation techniques.
+* Develop a structured penetration testing methodology.
+* Practice analyzing HTTP requests and responses.
+* Improve Burp Suite skills.
+* Understand common OWASP vulnerabilities.
+* Document practical security knowledge.
+* Build a public cybersecurity portfolio.
 
 ---
 
-## 🧪 Platforms
+# 🧪 Platforms
 
-### PortSwigger Web Security Academy
+## PortSwigger Web Security Academy
 
-Practical writeups for web security labs covering different vulnerability classes.
+Practical web security labs covering a wide range of vulnerabilities.
 
-* [SQL Injection](./PortSwigger/SQL-Injection/)
-* [Cross-Site Scripting (XSS)](./PortSwigger/XSS/)
-* [Authentication](./PortSwigger/Authentication/)
-* [Access Control](./PortSwigger/Access-Control/)
-* [CSRF](./PortSwigger/CSRF/)
-* [SSRF](./PortSwigger/SSRF/)
-* [XXE](./PortSwigger/XXE/)
-* [File Upload](./PortSwigger/File-Upload/)
-* [Command Injection](./PortSwigger/Command-Injection/)
-* [API Security](./PortSwigger/API-Security/)
-
-> More writeups will be added as I progress.
-
----
-
-## 🧩 Topics
-
-| Category       | Topics                                          |
-| -------------- | ----------------------------------------------- |
-| Injection      | SQL Injection, Command Injection, XXE           |
-| XSS            | Reflected, Stored, DOM-based XSS                |
-| Authentication | Authentication flaws, Session management        |
-| Access Control | IDOR, Privilege escalation, Authorization flaws |
-| Client-Side    | CSRF, DOM vulnerabilities                       |
-| Server-Side    | SSRF, File Upload                               |
-| API Security   | API vulnerabilities and testing                 |
-| Reconnaissance | Enumeration and information gathering           |
+| Category          | Status         |
+| ----------------- | -------------- |
+| SQL Injection     | 🚧 In Progress |
+| XSS               | 🚧 In Progress |
+| Authentication    | 🚧 In Progress |
+| Access Control    | 🚧 In Progress |
+| CSRF              | 🚧 In Progress |
+| SSRF              | 🚧 In Progress |
+| XXE               | 🚧 In Progress |
+| File Upload       | 🚧 In Progress |
+| Command Injection | 🚧 In Progress |
+| API Security      | 🚧 In Progress |
 
 ---
 
-## 🛠️ Tools
+## 🧩 Vulnerability Categories
 
-Some of the tools used throughout the labs:
+### 💉 Injection
+
+* SQL Injection
+* NoSQL Injection
+* Command Injection
+* LDAP Injection
+* XML Injection
+* Server-Side Template Injection
+
+### 🌐 Cross-Site Scripting
+
+* Reflected XSS
+* Stored XSS
+* DOM-based XSS
+
+### 🔐 Authentication
+
+* Authentication bypass
+* Password attacks
+* Session management
+* Multi-factor authentication vulnerabilities
+* Password reset vulnerabilities
+
+### 🚪 Access Control
+
+* IDOR
+* Horizontal privilege escalation
+* Vertical privilege escalation
+* Broken access control
+* Insecure direct object references
+
+### 🔄 Client-Side
+
+* CSRF
+* DOM-based vulnerabilities
+* Client-side validation bypass
+
+### 🖥️ Server-Side
+
+* SSRF
+* XXE
+* File upload vulnerabilities
+* Path traversal
+* Command injection
+
+### 🔌 API Security
+
+* API authentication
+* Authorization flaws
+* Parameter manipulation
+* Mass assignment
+* API access control
+
+---
+
+# 📊 Progress Tracker
+
+## Overall Progress
+
+```text
+PortSwigger
+████████░░░░░░░░░░░░ 40%
+
+Web Security
+███████░░░░░░░░░░░░░ 35%
+
+Bug Bounty
+█████░░░░░░░░░░░░░░░ 25%
+```
+
+> Progress percentages will be updated as more labs are completed.
+
+---
+
+## 🏆 Completed Labs
+
+|  # | Platform    | Lab         | Vulnerability | Difficulty |
+| -: | ----------- | ----------- | ------------- | ---------- |
+| 01 | PortSwigger | Example Lab | SQL Injection | Apprentice |
+| 02 | PortSwigger | Example Lab | XSS           | Apprentice |
+
+> Replace the example entries with completed labs.
+
+---
+
+# 🛠️ Tools
+
+Tools commonly used during the labs and security testing:
+
+### Web Security
 
 * Burp Suite
-* Nmap
-* ffuf
-* curl
-* SQLmap
-* Gobuster
-* Nikto
-* Wireshark
 * Browser DevTools
+* curl
+* HTTPie
+
+### Reconnaissance
+
+* Nmap
+* Gobuster
+* ffuf
+* Nikto
+
+### Exploitation
+
+* SQLmap
+* Metasploit
+* Custom scripts
+
+### Development / Scripting
+
+* Python
+* PHP
+* Bash
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Cybersecurity-Writeups/
@@ -82,10 +208,12 @@ Cybersecurity-Writeups/
 │   │
 │   ├── SQL-Injection/
 │   │   ├── README.md
+│   │   ├── images/
 │   │   └── ...
 │   │
 │   ├── XSS/
 │   │   ├── README.md
+│   │   ├── images/
 │   │   └── ...
 │   │
 │   ├── Authentication/
@@ -100,64 +228,181 @@ Cybersecurity-Writeups/
 │   ├── SSRF/
 │   │   └── ...
 │   │
-│   └── XXE/
+│   ├── XXE/
+│   │   └── ...
+│   │
+│   └── API-Security/
 │       └── ...
 │
+├── HackTheBox/
+│   └── ...
+│
+├── TryHackMe/
+│   └── ...
+│
 └── Notes/
-    └── ...
+    ├── HTTP/
+    ├── BurpSuite/
+    ├── Recon/
+    └── WebSecurity/
 ```
 
 ---
 
-## 📝 Writeup Format
+# 📝 Writeup Methodology
 
-Each lab writeup generally follows this structure:
+Each writeup follows a consistent methodology.
 
-1. **Lab Information**
-2. **Objective**
-3. **Reconnaissance**
-4. **Vulnerability Analysis**
-5. **Exploitation**
-6. **Tools Used**
-7. **Solution**
-8. **What I Learned**
+### 01 — Lab Information
 
-This structure helps keep the writeups consistent and easy to follow.
+Basic information about the lab:
+
+* Platform
+* Category
+* Difficulty
+* Status
+
+### 02 — Objective
+
+What the lab requires you to achieve.
+
+### 03 — Reconnaissance
+
+Analyze the application and identify interesting:
+
+* Endpoints
+* Parameters
+* Requests
+* Responses
+* Cookies
+* Headers
+* Authentication mechanisms
+
+### 04 — Vulnerability Analysis
+
+Explain:
+
+* Where the vulnerability exists
+* Why it exists
+* What causes it
+* How the application processes the input
+
+### 05 — Exploitation
+
+Document the exploitation process step by step.
+
+Example:
+
+```http
+GET /example?parameter=value HTTP/1.1
+Host: example.com
+```
+
+Then explain the modification made and the resulting behavior.
+
+### 06 — Tools
+
+Document the tools used during the lab.
+
+### 07 — Solution
+
+Explain the final steps required to solve the lab.
+
+### 08 — Lessons Learned
+
+Document the key concepts learned from the lab.
 
 ---
 
-## 📈 Progress
+# 📈 Learning Roadmap
 
-| Platform     |       Progress |
-| ------------ | -------------: |
-| PortSwigger  | 🚧 In Progress |
-| Hack The Box | 🚧 In Progress |
-| TryHackMe    | 🚧 In Progress |
+```text
+Web Fundamentals
+       │
+       ▼
+HTTP / HTTPS
+       │
+       ▼
+Burp Suite
+       │
+       ▼
+OWASP Top 10
+       │
+       ▼
+Web Vulnerabilities
+       │
+       ▼
+Advanced Web Security
+       │
+       ▼
+Bug Bounty
+       │
+       ▼
+Vulnerability Research
+```
 
 ---
 
-## ⚠️ Disclaimer
+# 📚 Resources
 
-All content in this repository is intended for **educational purposes only**.
-
-The techniques and methodologies documented here should only be used against systems and applications that you own or have explicit authorization to test.
-
----
-
-## 📚 References
+Useful resources used for learning and research:
 
 * OWASP
 * PortSwigger Web Security Academy
 * HackerOne
 * Bugcrowd
-* Official security documentation
+* CWE
+* CVE
+* Security research blogs
+* Official documentation
 
 ---
 
-## 👨‍💻 About
+# 🧠 Key Skills
 
-This repository represents my practical cybersecurity learning journey, with a focus on:
+Through these labs and writeups, I am continuously developing skills in:
 
-**Web Security • Penetration Testing • Bug Bounty • Vulnerability Research**
+* Web Application Security
+* Vulnerability Assessment
+* Penetration Testing
+* Reconnaissance
+* HTTP Request Analysis
+* Burp Suite
+* Exploitation
+* Security Research
+* Python Scripting
+* Bug Bounty Methodology
 
-More labs, notes, and writeups will be added over time.
+---
+
+# ⚠️ Disclaimer
+
+All content in this repository is intended for **educational purposes only**.
+
+The techniques, payloads, and methodologies documented here should only be used against systems that you own or have explicit authorization to test.
+
+I do not take responsibility for unauthorized or malicious use of the information contained in this repository.
+
+---
+
+# 👨‍💻 About
+
+This repository represents my ongoing practical journey in cybersecurity.
+
+**Focus Areas:**
+
+```text
+Web Security
+Penetration Testing
+Bug Bounty
+Vulnerability Research
+Security Automation
+```
+
+More labs, writeups, notes, and research will be added as I continue learning.
+
+---
+
+<p align="center">
+  <b>🔐 Learn • Hack • Document • Improve</b>
+</p>
